@@ -5,6 +5,7 @@
   "main": "build/index.js",
   "scripts": {
     "start": "node .",
+    "setup": "npm i && npm run build",
     "test": "jest ./source",
     "build": "tsc",
     "lint": "tslint -p tsconfig.json"
